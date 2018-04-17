@@ -10,7 +10,6 @@ public abstract class AbstractFeedPost {
 
   enum FeedPostType {GROUP, USER}
 
-  ;
   protected WebElement rootElement;
   private static final By POST_TEXT = By.xpath("//*[contains(@class, 'textWrap')]");
 

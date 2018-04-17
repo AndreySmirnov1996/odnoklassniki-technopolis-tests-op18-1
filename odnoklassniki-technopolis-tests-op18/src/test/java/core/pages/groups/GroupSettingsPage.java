@@ -17,13 +17,11 @@ public class GroupSettingsPage extends PageBase {
 
   private static final By NAV_PANEL = By.xpath("//*[contains(@id, 'GroupSettingsCatalog')]");
   private static final By CHANGE_TYPE = By.xpath("//*[contains(@hrefattrs, 'GroupChangeType')]");
-  private static final By CHANGE_TYPE_CONFIRM_POPUP = By
-      .xpath("//*[contains(@id, 'GroupChangeType')]");
+  private static final By CHANGE_TYPE_CONFIRM_POPUP = By.xpath("//*[contains(@id, 'GroupChangeType')]");
   private static final By FORM_CONFIRM = By.xpath("//*[@data-l='t,confirm']");
   private static final By PRIVACY_DROPDOWN = By.xpath("//*[@id='field_privacy']");
   private static final By SAVE_SETTINGS = By.xpath("//*[@name='button_save_settings']");
-  private static final By TIP = By
-      .xpath("//*[@data-module='NonBlockingTip']//*[@class='tip_cnt']//*");
+  private static final By TIP = By.xpath("//*[@data-module='NonBlockingTip']//*[@class='tip_cnt']//*");
   private String lastTipText = "NO TIP";
 
   public GroupSettingsPage(WebDriver driver) {

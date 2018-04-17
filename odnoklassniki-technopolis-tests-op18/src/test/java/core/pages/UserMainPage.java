@@ -11,6 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 /**
  * Представляет главную страницу пользователя
  */
+
 public class UserMainPage extends PageBase {
 
   private static final By FEED_CATEGORY_GROUPS = By

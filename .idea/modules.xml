@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/odnoklassniki-technopolis-tests-op18-OUR.iml" filepath="$PROJECT_DIR$/.idea/odnoklassniki-technopolis-tests-op18-OUR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/odnoklassniki-technopolis-tests-op18/web-tests-technopolis-op18.iml" filepath="$PROJECT_DIR$/odnoklassniki-technopolis-tests-op18/web-tests-technopolis-op18.iml" />
+    </modules>
+  </component>
+</project>
